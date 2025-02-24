@@ -37,7 +37,7 @@ function deals()
 {	$ID_DEAL = $_REQUEST['ID_DEAL'];
 require 'db_connect.php';
 echo '<input type="hidden" name="ID_DEAL" value="'.$ID_DEAL.'">';
-$result = mysqli_query($mysqli,"SELECT * FROM deal WHERE ID_DEAL='$ID_DEAL'");
+$result = mysqli_query($mysqli,"SELECT * FROM deals WHERE ID_DEAL='$ID_DEAL'");
 $row=mysqli_fetch_array($result);
  echo'
                   <td>Код сделки</td>

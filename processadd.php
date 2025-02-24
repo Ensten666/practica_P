@@ -58,7 +58,7 @@ if ((!isset($ID_SERVICES))||(!isset($NAME_SERVICES))
 echo '<div class="my">Вы не указали все данные. Повторите ввод.</div>'; 
 exit;
 }
-$result = mysqli_query ($mysqli,"INSERT INTO services (ID_SERVICES,NAME_SERVICES, ABOUT_SERVICES) VALUES ('$ID_SERVICES','$NAME_SERVICES','$ABOUT_SERVICES'");
+$result = mysqli_query ($mysqli,"INSERT INTO services (ID_SERVICES,NAME_SERVICES, ABOUT_SERVICES) VALUES ('$ID_SERVICES','$NAME_SERVICES','$ABOUT_SERVICES')");
 if ($result) echo "<div class='my'>Данные  сохранены</div>";
 if (!$result) echo "<div class='my'>Ошибка сохранения данных </div>";
 

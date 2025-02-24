@@ -42,7 +42,7 @@ else
 	
 	<p> Неверный логин или пароль </p>
 	</br>
-	<abs href="index.php">Вернуться</abs>
+	<a href="index.php">Вернуться</a>
 	  </td>
     </tr>
   </tbody>

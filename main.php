@@ -22,7 +22,7 @@ body {
 		<input type="submit" value="Сделки">
 		</form>		</td></tr>
 <tr><td >		<form action="spisok.php" method="post">
-		<input type="head" name="PID" value="services">
+		<input type="hidden" name="PID" value="services">
 		<input type="submit" value="Услуги">
 				</form>		</td></tr>
 </body>
